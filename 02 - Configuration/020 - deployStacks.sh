@@ -16,8 +16,8 @@ curl -fsSL $TRAEFIKURL -o $TRAEFIKYAML
 curl -fsSL $PORTAINERURL -o $PORTAINERYAML
 curl -fsSL $PORTAINEREXTENDURL -o $PORTAINERYEXTENDAML
 
-export TARGETDOMAIN=ptorrezao.duckdns.org
-export ACMEEMAIL=pedro.torrezao@gmail.com
+export TARGETDOMAIN=REDACTED
+export ACMEEMAIL=REDACTED
 
 docker stack deploy \
     -c $TRAEFIKYAML \
